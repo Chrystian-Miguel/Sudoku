@@ -180,7 +180,7 @@ public class Main {
             return;
         }
 
-        if(board.gemeIsFinished()){
+        if(board.gameIsFinished()){
             System.out.println("Parabéns você concluiu o jogo");
             showCurrentGame();
             board = null;

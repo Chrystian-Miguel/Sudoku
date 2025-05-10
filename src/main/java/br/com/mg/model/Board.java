@@ -64,7 +64,7 @@ public class Board {
 
     // por gamesatus ser um enum podemos utilizar "==" ou "getStatus().equals(COMPLETE)"
 
-    public boolean gemeIsFinished(){
+    public boolean gameIsFinished(){
         return !hasErros() && getStatus().equals(COMPLETE) ;
     }
 }
